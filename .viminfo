@@ -7,9 +7,14 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~Msle0~/{
+
 # Command Line History (newest to oldest):
+:wq
 
 # Search String History (newest to oldest):
+? {
 
 # Expression History (newest to oldest):
 
@@ -18,14 +23,45 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	int main()
+	{
+	  string num1, num2;
+	  cout << "Add two large numbers in the following:\n";
+	  cout << "Input first large integer value: ";
+	    cin >> num1 << end1;
+	  cout << "Input second large integer value: ";
+	    cin >> num2 << end1;
+	  cout << "The sum of the large numbers is: " << Sum(num1,num2) << end1;
 
 # File marks:
-'0  1  0  ~/helloworld.cpp
+'0  75  0  ~/hw2.cpp
+'1  70  20  ~/hw2.cpp
+'2  1  0  ~/helloworld.cpp
 
 # Jumplist (newest first):
+-'  75  0  ~/hw2.cpp
+-'  76  71  ~/hw2.cpp
+-'  70  8  ~/hw2.cpp
+-'  1  0  ~/hw2.cpp
+-'  1  0  ~/helloworld.cpp
+-'  1  0  ~/helloworld.cpp
+-'  1  0  ~/helloworld.cpp
 -'  1  0  ~/helloworld.cpp
 
 # History of marks within files (newest to oldest):
+
+> ~/hw2.cpp
+	"	75	0
+	^	70	21
+	.	75	0
+	+	7	19
+	+	12	0
+	+	7	20
+	+	13	1
+	+	73	2
+	+	70	0
+	+	75	0
 
 > ~/helloworld.cpp
 	"	1	0
