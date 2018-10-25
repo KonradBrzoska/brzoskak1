@@ -1,10 +1,20 @@
 // Homework 2- Adding two large numbers         by: Konrad Brzoska 10-10-18
 #include <iostream>
+<<<<<<< HEAD
 //#include <bits/stdc++.h>
 #include <string>//added to be safe
 #include <vector>
 #include <algorithm>
 using namespace std;
+=======
+//#include <bits/stdc++.h> // dont need anymore because only need string, vector and algorith make it complile faster
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+>>>>>>> 0667db13464d9b9926a3b0a6a899bb46bf3e94ab
 string findSum(string str1, string str2)
 {
   if (str1.length() > str2.length())
@@ -24,7 +34,11 @@ string findSum(string str1, string str2)
   int sum = ((str2[i]-'0')+carry);
      str.push_back(sum%10 + '0');
      carry = sum/10;
+<<<<<<< HEAD
  }
+=======
+  }
+>>>>>>> 0667db13464d9b9926a3b0a6a899bb46bf3e94ab
 
  if (carry)
      str.push_back(carry+'0');
@@ -44,6 +58,11 @@ int main()
   cout << "The sum of the large numbers is: " << findSum(str1,str2) << endl;
 return 0;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0667db13464d9b9926a3b0a6a899bb46bf3e94ab
 /*#include <iostream>
 #include <algorithm>// reverse and sort
 #include <string>//sting
